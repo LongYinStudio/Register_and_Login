@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register"
+    android:gravity="top|center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="60px"
+        android:textColor="#008c8c"
+        android:paddingTop="300px"/>
+    <EditText
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:background="#a0a0a0"
+        android:layout_marginTop="300px"
+        android:hint="用户名"
+        android:id="@+id/edit_user"/>
+    <EditText
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:background="#a0a0a0"
+        android:layout_marginTop="30px"
+        android:hint="密码"
+        android:id="@+id/edit_password"/>
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:id="@+id/btn_login"/>
+
+    <TextView
+        android:text="结果"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_return"
+        android:layout_marginTop="30px"
+        android:textSize="16dp"/>
+
+</LinearLayout>
