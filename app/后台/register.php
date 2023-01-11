@@ -1,7 +1,7 @@
 <?php
 $user = $_POST['user'];
 $password = $_POST['password'];
-$link = mysqli_connect('localhost', 'MysqlTest', 'AIDE133122#', 'test');
+$link = mysqli_connect('localhost', '用户名', '密码', '数据库');
 if (!$link) {
     $conn_failed = array('code' => -3, 'msg' => "数据库连接失败，error:" . $mysql_error());
     echo json_encode($conn_failed, JSON_UNESCAPED_UNICODE);
